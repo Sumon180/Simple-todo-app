@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+    padding: 1rem;
+
+}
+.card{
+    background-color: rgb(134, 191, 35);
+    color: white;
+    padding: 1rem;
+    min-height: 70vh;
+    width: 30%;
+    box-shadow: 4px 5px 10px 0 #ff0000;
+    border-radius: 5px;
+
+}
+.main{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.main input{
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+#add{
+    padding: 0.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
